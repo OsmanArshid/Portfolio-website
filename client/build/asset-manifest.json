@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87e41cce.css",
-    "main.js": "/static/js/main.1bafb08d.js",
+    "main.js": "/static/js/main.0f31e7ba.js",
     "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
     "static/media/Image2.png": "/static/media/Image2.90f4da6172a866298e12.png",
     "static/media/LumsApp.jpeg": "/static/media/LumsApp.998d8e02f41e0f51d3f8.jpeg",
@@ -11,11 +11,11 @@
     "static/media/BackgroundImage.jpg": "/static/media/BackgroundImage.3c1e569816eefd35faca.jpg",
     "index.html": "/index.html",
     "main.87e41cce.css.map": "/static/css/main.87e41cce.css.map",
-    "main.1bafb08d.js.map": "/static/js/main.1bafb08d.js.map",
+    "main.0f31e7ba.js.map": "/static/js/main.0f31e7ba.js.map",
     "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87e41cce.css",
-    "static/js/main.1bafb08d.js"
+    "static/js/main.0f31e7ba.js"
   ]
 }

@@ -41,7 +41,7 @@ const MainPage = () => {
         e.preventDefault();
 
         // Send data to the backend
-        fetch('http://localhost:5000/send', {
+        fetch('portfolio-website-five-ebon.vercel.app/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
