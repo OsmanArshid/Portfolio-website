@@ -41,7 +41,7 @@ const MainPage = () => {
         e.preventDefault();
 
         // Send data to the backend
-        fetch('http://localhost:3001/send', {
+        fetch('http://localhost:5000/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -550,11 +550,11 @@ const MainPage = () => {
                     <a href="https://github.com/Muhammad-Mehdi-Changazi" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i>
                     </a>
-                    <a href="https://www.instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/mehdi_changezii" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
                     </a>
                     
-                    <a href="https://www.facebook.com/your-facebook" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/mehdichangexii?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-facebook"></i>
                     </a>
                 </div>
