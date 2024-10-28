@@ -41,7 +41,7 @@ const MainPage = () => {
         e.preventDefault();
 
         // Send data to the backend
-        fetch('"https://portfolio-website-ruby-one.vercel.app/send"', {
+        fetch('https://portfolio-website-ruby-one.vercel.app/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
