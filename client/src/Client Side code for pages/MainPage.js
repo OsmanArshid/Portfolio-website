@@ -157,13 +157,13 @@ const MainPage = () => {
                     <div className="about-section" style={{ textAlign: 'center', color: 'white', fontWeight: 'normal' }}>
     <p>
         <span style={{ fontSize: '1.2em', color: 'white', fontWeight: 'bold' }}>Hi,</span> My name is{' '}
-        <span style={{ fontSize: '1.2em', color: 'white', fontWeight: 'bold' }}>Muhammad Mehdi Changazi,</span> and I am{' '}
+        <span style={{ fontSize: '1.2em', color: 'white', fontWeight: 'bold' }}>Muhammad Mehdi Changezi,</span> and I am{' '}
         <span style={{ color: '#00bccde5', fontSize: '1.8em', fontWeight: 'bold' }}>{typedPhrase}</span>.
     </p>
 
     <div className="about-card">
                         <p>
-                            I’m a <span className="highlighted">Computer Science</span> student at <span className="highlighted">LUMS</span> with a strong focus on <span className="highlighted">Full-Stack Web and Mobile development</span>. My academic journey has equipped me with a solid foundation in fields like <span className="highlighted">Web/App Design</span> and <span className="highlighted">Development</span>, and <span className="highlighted">Game Design/Development</span>, complemented by hands-on projects, including a <span className="highlighted">real-time ride-booking app</span> and an <span className="highlighted">AI-driven task scheduler</span>. My internship at <span className="highlighted">SigmaTec Solutions</span> enhanced my <span className="highlighted">MERN stack</span> skills as I built a photography website to showcase users’ creative portfolios. Additionally, I served as <span className="highlighted">General Secretary</span> at <span className="highlighted">Ummat Educational Organization</span>, where I provided free education to underprivileged students, fostering my passion for community service. A passionate <span className="highlighted">tech enthusiast</span>, I’m eager to launch my career and contribute innovative solutions to the tech industry.
+                            I’m a <span className="highlighted">Computer Science</span> student at <span className="highlighted">LUMS</span> with a strong focus on <span className="highlighted">Full-Stack Web and Mobile development</span>. My academic journey has equipped me with a solid foundation in fields like <span className="highlighted">Web/App Design</span> and <span className="highlighted">Development</span>, and <span className="highlighted">Game Design/Development</span>, complemented by hands-on projects. My internship at <span className="highlighted">SigmaTec Solutions</span> enhanced my <span className="highlighted">MERN stack</span> skills. Additionally, I served as <span className="highlighted">General Secretary</span> at <span className="highlighted">Ummat Educational Organization</span>, where I provided free education to underprivileged students, fostering my passion for community service. A passionate <span className="highlighted">tech enthusiast</span>, I’m eager to launch my career and contribute innovative solutions to the tech industry.
                         </p>
                     </div>
 </div>
