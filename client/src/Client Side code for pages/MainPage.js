@@ -201,9 +201,7 @@ const MainPage = () => {
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Data Manipulation</li>
                 
                         </ul>
-                    <a href="https://github.com/your-repo-1" target="_blank" rel="noopener noreferrer" className="project-link">
-                        View Project
-                    </a>
+
                 </div>
                 <div className="image-section" >
                     <img src={datascience} alt="Data Science Project Snapshot" className="project-image" />
@@ -222,9 +220,7 @@ const MainPage = () => {
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> MONGODB</li>
                 
                         </ul>
-                    <a href="https://github.com/your-repo-2" target="_blank" rel="noopener noreferrer" className="project-link">
-                        View Project
-                    </a>
+                    
                 </div>
                 <div className="image-section" >
                     <img src={image2} alt="Ride Booking Project Snapshot" className="project-image" />
@@ -243,9 +239,7 @@ const MainPage = () => {
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Firebase</li>
                 
                         </ul>
-                    <a href="https://github.com/your-repo-3" target="_blank" rel="noopener noreferrer" className="project-link">
-                        View Project
-                    </a>
+                    
                 </div>
                 <div className="image-section" >
                     <img src={Image1} alt="Task Scheduling Project Snapshot" className="project-image" />
@@ -264,9 +258,7 @@ const MainPage = () => {
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Figma Screens Design</li>
                 
                         </ul>
-                    <a href="https://github.com/your-repo-4" target="_blank" rel="noopener noreferrer" className="project-link">
-                        View Project
-                    </a>
+            
                 </div>
                 <div className="image-section">
                     <img src={Lums} alt="LUMSync Project Snapshot" className="project-image" />
