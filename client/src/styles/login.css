@@ -272,7 +272,9 @@ header {
 
 .image-section {
     width: 400px; /* Set width for image section */
+    padding-top: 70px;
 }
+
 
 .project-image {
     max-width: 100%; /* Responsive image */
@@ -314,7 +316,7 @@ header {
     margin-top: 10px; /* Spacing between text and image */
 }
 
-.project-card {
+.project-card .project-link {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -327,7 +329,7 @@ header {
     margin-left: 40px;
 }
 
-.project-card  {
+.project-card .project-link:hover {
     background-color: #0089a7; /* Color change on hover */
 }
 

@@ -193,7 +193,7 @@ const MainPage = () => {
                 <div className="text-section">
                     <h3>Data Science Project </h3>
                     <p>
-                    Using ML modeled system and data science techniques, we developed a system that predicts academic life balance techniques for users based on data gathered from past student experiences. Utilized data cleaning and manipulation techniques to prepare the dataset for analysis.
+                    Developed an application to predict academic-life balance strategies for students based on previous student experiences. Gathered data through surveys and other sources, then cleaned and preprocessed it for modeling. Built statistical graphs and visualizations to provide insights and improve prediction accuracy. Leveraged data science techniques for data manipulation and implemented machine learning models for predictive analytics. This project helped solidify skills in data science, AI modeling, and data visualization.
                     </p>
                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Data Gathering</li>
@@ -212,7 +212,7 @@ const MainPage = () => {
                 <div className="text-section">
                     <h3>Real-time Ride Booking Web Application</h3>
                     <p>
-                        Created a real-time ride booking web application using the MERN stack. Implemented features such as user authentication and dynamic ride tracking, gaining hands-on experience with MongoDB for database storage.
+                    Created a web application using the MERN stack that enables real-time ride bookings, allowing users to request and schedule rides seamlessly. Designed a responsive user interface and implemented dynamic features like live ride tracking and booking confirmations. Integrated MongoDB for storing ride details and user information, focusing on performance and scalability. This project was pivotal in understanding real-time application requirements and handling large datasets. Gained practical experience in front-end and back-end integration using React, Node.js, and Express.
                     </p>
                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> MERN STACK</li>
@@ -231,7 +231,7 @@ const MainPage = () => {
                 <div className="text-section">
                     <h3>AI-Based Task Scheduling Mobile Application</h3>
                     <p>
-                        Developed a mobile application using Flutter and Firebase that allows users to schedule tasks by providing task descriptions. The app sends timely notifications for each sub-task, enhancing user productivity.
+                    Built a mobile application using Flutter, Dart, and Firebase that allows users to schedule tasks with AI-powered automation and receive timely notifications. Implemented task management functionality, enabling users to break down tasks into subtasks and set reminders. Integrated Firebase for user authentication and to ensure data persistence and scalability. Focused on user experience with a simple interface and optimized push notifications for timely task alerts. This project enhanced my skills in mobile development, AI integration, and user-centric design.
                     </p>
                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Flutter</li>
@@ -250,7 +250,7 @@ const MainPage = () => {
                 <div className="text-section">
                     <h3>LUMSync Mobile Application Interface</h3>
                     <p>
-                        Designed the interface for the LUMSync mobile application, enabling users to manage their coursework and extracurricular activities from a single platform. Utilized Figma for interface design and improved problem identification and solution proposing skills.
+                    Designed the user interface for the LUMSync mobile app, intended to centralize course management and extracurricular activity tracking for students. Conducted problem identification to understand user needs and mapped out solutions to improve task organization within the app. Developed wireframes and interactive prototypes in Figma, ensuring a clean, user-friendly design. Collaborated with other team members to ensure the design aligned with functional requirements. This project honed my skills in UI/UX design, problem-solving, and technical prototyping using Figma.
                     </p>
                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> User Research, Problem Identification</li>
@@ -258,7 +258,7 @@ const MainPage = () => {
                             <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Figma Screens Design</li>
                 
                         </ul>
-            
+
                 </div>
                 <div className="image-section">
                     <img src={Lums} alt="LUMSync Project Snapshot" className="project-image" />
