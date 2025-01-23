@@ -13,12 +13,11 @@ const MainPage = () => {
     const fullName = "  I'M     MEHDI";
 
     const phrases = [
-        '           A Full Stack Developer            ',
-        '           A Mob App Developer              ',
-        '           A Cloud Development learner        ',
-        '           A Passionate Problem Solver        ',
-        '           A Game Development Enthusiast      '
+        'A Full Stack Developer              ',
+        'A Part-Time Software Engineer               ',
+        'Specialized in Frontend and Backend Development               ',
     ];
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -168,8 +167,9 @@ const MainPage = () => {
 
                         <div className="about-card">
                             <p>
-                                I’m a <span className="highlighted">Computer Science</span> student at <span className="highlighted">LUMS</span> with a strong focus on <span className="highlighted">Full-Stack Web and Mobile development</span>. My academic journey has equipped me with a solid foundation in fields like <span className="highlighted">Web/App Design</span> and <span className="highlighted">Development</span>, and <span className="highlighted">Game Design/Development</span>, complemented by hands-on projects. My internship at <span className="highlighted">SigmaTec Solutions</span> enhanced my <span className="highlighted">MERN stack</span> skills. Additionally, I served as <span className="highlighted">General Secretary</span> at <span className="highlighted">Ummat Educational Organization</span>, where I provided free education to underprivileged students, fostering my passion for community service. A passionate <span className="highlighted">tech enthusiast</span>, I’m eager to launch my career and contribute innovative solutions to the tech industry.
+                                I’m a <span className="highlighted">final-year Computer Science</span> student at <span className="highlighted">LUMS</span>, currently working as a part-time <span className="highlighted">Software Engineer at Rhodium Tech</span>. I have expertise in <span className="highlighted">Mobile Application</span> and <span className="highlighted">Web App Development</span>, working with frameworks like <span className="highlighted">MERN</span> and <span className="highlighted">React Native</span>. Currently, as a full-stack part-time engineer, I am focusing on enhancing the <span className="highlighted">Snackout web application</span>, making its user experience more seamless. The frontend is built with <span className="highlighted">React and TypeScript</span>, and the backend is developed using <span className="highlighted">TypeScript and Express</span>. My academic journey has provided me with a solid foundation in <span className="highlighted">Web/App Design</span>, <span className="highlighted">Development</span>, and <span className="highlighted">Game Design/Development</span>, complemented by hands-on projects. My internship at <span className="highlighted">SigmaTec Solutions</span> further strengthened my <span className="highlighted">MERN stack</span> skills. Additionally, I served as <span className="highlighted">General Secretary</span> at <span className="highlighted">Ummat Educational Organization</span>, where I provided free education to underprivileged students, fostering my passion for community service. A passionate <span className="highlighted">tech enthusiast</span>, I’m eager to launch my career and contribute innovative solutions to the tech industry.
                             </p>
+
                         </div>
                     </div>
 
