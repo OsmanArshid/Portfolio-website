@@ -32,7 +32,7 @@ app.post('/send', (req, res) => {
     const mailOptions = {
         from: email,
         to: 'mehdichangazi135@gmail.com', // Your email address
-        subject: `New message from ${name}`,
+        subject: `${name} Reached Out To You!`,
         html: `
             <p>You have received a new message:</p>
             <p><strong>Name:</strong> ${name}</p>
