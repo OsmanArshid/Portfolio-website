@@ -24,7 +24,7 @@ app.post('/send', (req, res) => {
         service: 'gmail', // Change to your email service
         auth: {
             user: 'mehdichangazi135@gmail.com', // Your email
-            pass: 'orvi trsz qirr iosh' // Your email password or app password
+            pass: 'sllz vsta gdkl hxoc' // Your email password or app password
         }
     });
 
