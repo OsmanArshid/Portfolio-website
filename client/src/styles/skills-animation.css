@@ -1,0 +1,82 @@
+.skills-section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.skills-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.skills-track {
+  display: flex;
+  width: fit-content;
+  animation: scrollSkills 40s linear infinite;
+}
+
+.skill-item {
+  flex: 0 0 auto;
+  margin: 0 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.skill-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes scrollSkills {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Move to the left by half the width (since we duplicated the items) */
+    transform: translateX(-50%);
+  }
+}
+
+/* Add a second row that moves in the opposite direction */
+.skills-container:nth-child(2) .skills-track {
+  animation-direction: reverse;
+}
+
+/* Make sure the animation is smooth */
+@media (prefers-reduced-motion: no-preference) {
+  .skills-track {
+    animation-play-state: running;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skills-track {
+    animation-play-state: paused;
+  }
+}
