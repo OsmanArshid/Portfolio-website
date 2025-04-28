@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/login.css';
 import ProfilePic from '../styles/MyImage.jpg';
-import image2 from '../styles/Image2.png'
-import Image1 from '../styles/AI mobile App.jpeg'
-import datascience from '../styles/DataScience.jpeg'
-import Lums from '../styles/LumsApp.jpeg'
-import AnimatedSkills from "./skills.animation"
+import Ride_Booking from '../styles/Ride-Booking.png';
+import Task_Scheduler from '../styles/AI-Task_Scheduler.png';
+import AnimatedSkills from "./skills.animation";
+import manzil from '../styles/Manzil.png';
+import SnackOutLogo from "../styles/snack-out.svg"
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@radix-ui/react-tabs'; // Example import, adjust based on your library
 
 
@@ -199,16 +199,19 @@ const MainPage = () => {
                 PROJECTS
                 </h2>
 
-                  <Tabs defaultValue="ridebooking" style={{ marginTop: '40px' }}>
+                  <Tabs defaultValue="Manzil" style={{ marginTop: '40px' }}>
                     <TabsList className="tab-buttons-container">
+                        <TabsTrigger value="Manzil" className="tab-button">
+                        Journi-Sphere
+                        </TabsTrigger>
                         <TabsTrigger value="ridebooking" className="tab-button">
                         Ride Booking
                         </TabsTrigger>
-                        <TabsTrigger value="datascience" className="tab-button">
-                        Data Science
-                        </TabsTrigger>
                         <TabsTrigger value="taskscheduling" className="tab-button">
                         Task Scheduling
+                        </TabsTrigger>
+                        <TabsTrigger value="datascience" className="tab-button">
+                        Data Science
                         </TabsTrigger>
                         <TabsTrigger value="lumsync" className="tab-button">
                         LUMSync App
@@ -245,6 +248,29 @@ const MainPage = () => {
                     </div>
                 </TabsContent>
 
+                {/* Manzil*/}
+                <TabsContent value="Manzil">
+                    <div className="project-card" style={{ marginTop: '20px' }}>
+                    <div className="text-section">
+                        <h3>Journi-Sphere </h3>
+                        <p>
+                        JourniSphere is an innovative tourism platform that empowers users to plan, organize, and book their trips through a user-friendly mobile app. It offers curated travel options, real-time information, personalized AI-based trip planning, and secure booking—all in one seamless experience.
+                        </p>
+                        <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
+
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Discover and Explore: Access curated lists of tourist spots, restaurants, hotels, and car rental services with real-time information, user reviews, AI-generated place descriptions, and integrated navigation support.</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Personalized Trip Planning: Use the AI-powered trip planner to create fully customized travel itineraries based on your preferences, budget, and schedule—complete with suggested hotels, rental options, and instant contact details.</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Seamless Booking and Payments: Book hotels and car rentals directly through the app with a secure payment system, confirming your entire trip easily and safely within minutes.</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Web panel for the Hotels and Car rentals: The Software also has two website for hotels and car rentals to manage their inventory and update the reservations and update timely.</li>
+                        </ul>
+                    </div>
+                    <div className="image-section">
+                        <img src={manzil} alt="Ride Booking Project Snapshot" className="project-image" />
+                    </div>
+                    </div>
+                </TabsContent>
+
+
                 {/* Ride Booking Project */}
                 <TabsContent value="ridebooking">
                     <div className="project-card" style={{ marginTop: '20px' }}>
@@ -261,7 +287,7 @@ const MainPage = () => {
                         </ul>
                     </div>
                     <div className="image-section">
-                        <img src={image2} alt="Ride Booking Project Snapshot" className="project-image" />
+                        <img src={Ride_Booking} alt="Ride Booking Project Snapshot" className="project-image" />
                     </div>
                     </div>
                 </TabsContent>
@@ -272,16 +298,16 @@ const MainPage = () => {
                     <div className="text-section">
                         <h3>AI-Based Task Scheduling Mobile Application</h3>
                         <p>
-                        Built a mobile application using Flutter, Dart, and Firebase that allows users to schedule tasks with AI-powered automation and receive timely notifications. Implemented task management functionality, enabling users to break down tasks into subtasks and set reminders. Integrated Firebase for user authentication and to ensure data persistence and scalability.
+                        We developed a task scheduling mobile application using React Native, designed to help users manage their workload more efficiently. Users input task details, and the app intelligently breaks down each task into subtasks and automatically schedules them in a calendar. Notifications for scheduled tasks are sent through Firebase, ensuring users stay updated. The app tracks the task status by moving tasks through "In Progress" and "Done" lists as users work through them. We also integrated the ChatGPT API to enhance the task breakdown and scheduling process with smart, AI-driven suggestions.
                         </p>
                         <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Flutter</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Dart</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Firebase</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Smart task breakdown into subtasks and automated calendar scheduling.</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Real-time task status tracking (In Progress and Done).</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Push notifications to remind users about upcoming tasks.</li>
                         </ul>
                     </div>
                     <div className="image-section">
-                        <img src={Image1} alt="Task Scheduling Project Snapshot" className="project-image" />
+                        <img src={Task_Scheduler} alt="Task Scheduling Project Snapshot" className="project-image" />
                     </div>
                     </div>
                 </TabsContent>
@@ -292,16 +318,13 @@ const MainPage = () => {
                     <div className="text-section">
                         <h3>LUMSync Mobile Application Interface</h3>
                         <p>
-                        Designed the user interface for the LUMSync mobile app, intended to centralize course management and extracurricular activity tracking for students. Conducted problem identification to understand user needs and mapped out solutions to improve task organization within the app. Developed wireframes and interactive prototypes in Figma, ensuring a clean, user-friendly design.
+                        Designed the user interface for the LUMSync mobile application, a platform aimed at streamlining course management and extracurricular activity tracking for university students. Conducted thorough user research and problem identification sessions to deeply understand student pain points and organizational challenges. Mapped out optimized solutions to enhance the app’s task management capabilities, ensuring a smoother and more efficient user experience. Collaborated closely with potential users through interviews to validate design decisions and prioritize essential features. Developed detailed wireframes and fully interactive prototypes using Figma, focusing on creating a clean, intuitive, and user-centric interface that supports both academic and extracurricular engagement.
                         </p>
                         <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> User Research, Problem Identification</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Optimal Solution Approach, Interviewing Audience</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Figma Screens Design</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span>Conducted User Research and Problem Identification to understand real needs</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span>Proposed and validated Optimal Solution Approaches through user interviews</li>
+                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span>Designed detailed Figma Wireframes, Screens, and Interactive Prototypes</li>
                         </ul>
-                    </div>
-                    <div className="image-section">
-                        <img src={Lums} alt="LUMSync Project Snapshot" className="project-image" />
                     </div>
                     </div>
                 </TabsContent>
@@ -315,11 +338,11 @@ const MainPage = () => {
                 flex-wrap: wrap;
                 gap: 10px;
                 justify-content: center;
-                margin: 20px 0;
+                margin: 10px 0;
             }
 
             .tab-button {
-                flex: 1 1 20%;
+                flex: 1 1 10%;
                 padding: 10px 8px;
                 font-size: 1.5em;
                 background-color: #0092a0;
@@ -387,6 +410,38 @@ const MainPage = () => {
                     <h2 style={{ fontWeight: 'bold', color: '#00bccde5', fontSize: '2.5em', textAlign: 'center' }}>Experience</h2>
 
                     <div className="experience-grid">
+
+                        <div className="experience-card">
+                            {/* Experience card with company name */}
+                            <div className="card">
+                                      <img src={SnackOutLogo} alt="SnackOut Logo" style={{ width: '100px', height: '100px', verticalAlign: 'middle' }} ></img>   
+                            
+                                <div className="experience-details">
+                                    <strong className="role"><span style={{color: "#d8d3d3"}}>Associate Software Engineer (Jan 2025 - Present)</span></strong>
+                                    <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
+                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Lead frontend development of SnackOut’s Vendor and Admin web panels using React and TypeScript.</li>
+                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Developed and maintained modules for restaurant inventory management, rider assignment, order tracking, and wallet management.</li>
+                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Integrated push notifications via Firebase to enhance real-time communication with vendors and riders.</li>
+                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Worked closely with backend technologies including Node.js, Express.js, Prisma ORM, and PostgreSQL databases.</li>
+                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Collaborated with DevOps teams to manage AWS CI/CD pipelines and Kafka for event-driven communication.</li>
+                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Solely responsible for designing and implementing new features, ensuring performance and scalability.</li>
+                                    </ul>
+                                    <div className="skills-icons">
+                                        <i className="fab fa-js-square skill-logo" title="JavaScript" style={{ margin: '10px', color: '#00bccd', fontSize: '50px' }}></i>
+                                        <i className="fab fa-react skill-logo" title="React" style={{ margin: '10px', color: '#00bccd', fontSize: '50px' }}></i>
+                                        <i className="fab fa-css3-alt skill-logo" title="CSS" style={{ margin: '10px', color: '#00bccd', fontSize: '50px' }}></i>
+                                        <i className="fab fa-node skill-logo" title="NodeJS" style={{ margin: '10px', color: '#00bccd',fontSize: '50px' }}></i>
+                                        <i className="fas fa-database skill-logo" title="PostgreSQL" style={{  margin: '10px', color: '#00bccd',fontSize: '50px' }}></i>
+                                        <i className="fas fa-cloud skill-logo" title="AWS" style={{  margin: '10px', color: '#00bccd',fontSize: '50px' }}></i>
+                                        <i className="fas fa-bolt skill-logo" title="Kafka" style={{  margin: '10px', color: '#00bccd', fontSize: '50px' }}></i>
+                                        <i className="fas fa-bell skill-logo" title="Firebase" style={{ margin: '10px', color: '#00bccd', fontSize: '50px' }}></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+
                         <div className="experience-card">
                             {/* Experience card with company name */}
                             <div className="card">
@@ -435,6 +490,7 @@ const MainPage = () => {
                     </div>
                 </div>
             </section>
+
 
             <AnimatedSkills />
 

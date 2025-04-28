@@ -352,13 +352,14 @@ header {
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .skills-icons {
-    display: flex;               /* Use flexbox for alignment */
-    justify-content: center;     /* Center the icons horizontally */
-    align-items: center;         /* Center the icons vertically */
-    gap: 20px;                   /* Space between icons */
-    padding: 20px;               /* Add some padding around the icons */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center them horizontally */
+  gap: 10px;               /* consistent spacing between icons */
 }
+
 
 .skill-item {
     display: inline-block;
