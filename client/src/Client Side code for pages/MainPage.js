@@ -239,10 +239,10 @@ const MainPage = () => {
                         <p>The linear regression model provided valuable insights into the factors influencing a student's ability to maintain a healthy study-life balance. Key findings included that students who allocated structured time for both study and recreation achieved better balance, emphasizing the importance of time management. Additionally, insufficient sleep and high stress were strongly correlated with poor balance, while those with adequate sleep and lower stress levels fared better. Participation in extracurricular activities like sports or clubs also positively contributed to well-being, highlighting the benefits of a holistic approach to university life. Lastly, social interactions and maintaining relationships outside academics helped students feel more relaxed and focused, further enhancing their study-life balance.</p>
                         
                         <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Data Gathering (Google Forms, Interviews, Live Questions)</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Data Cleaning </li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Data Manipulation (Histograms, heatmaps, Box plots, scatter plots, MatPlot and Seaborn Libraries) </li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Linear Regression (Study Time, social interaction, physical Activity)</li>
+                        <li style={{ marginBottom: '5px' }}> Data Gathering (Google Forms, Interviews, Live Questions)</li>
+                        <li style={{ marginBottom: '5px' }}> Data Cleaning </li>
+                        <li style={{ marginBottom: '5px' }}> Data Manipulation (Histograms, heatmaps, Box plots, scatter plots, MatPlot and Seaborn Libraries) </li>
+                        <li style={{ marginBottom: '5px' }}> Linear Regression (Study Time, social interaction, physical Activity)</li>
                         </ul>
                     </div>
                     </div>
@@ -254,15 +254,9 @@ const MainPage = () => {
                     <div className="text-section">
                         <h3>Journi-Sphere </h3>
                         <p>
-                        JourniSphere is an innovative tourism platform that empowers users to plan, organize, and book their trips through a user-friendly mobile app. It offers curated travel options, real-time information, personalized AI-based trip planning, and secure booking—all in one seamless experience.
+                        JourniSphere is an innovative tourism platform that empowers users to plan, organize, and book their trips through a user-friendly mobile app. It offers curated travel options, real-time information, personalized AI-based trip planning, and secure booking—all in one seamless experience. Users can discover and explore curated lists of tourist spots, restaurants, hotels, and car rental services with real-time information, user reviews, AI-generated place descriptions, and integrated navigation support. The AI-powered trip planner allows travelers to create fully customized travel itineraries based on their preferences, budget, and schedule—complete with suggested hotels, rental options, and instant contact details. The app also enables seamless booking and payments, allowing users to book hotels and car rentals directly through the app with a secure payment system, confirming their entire trip easily and safely within minutes. Additionally, JourniSphere provides dedicated web panels for hotels and car rental companies, enabling them to manage their inventory, update reservations, and ensure timely updates efficiently.
                         </p>
-                        <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
 
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Discover and Explore: Access curated lists of tourist spots, restaurants, hotels, and car rental services with real-time information, user reviews, AI-generated place descriptions, and integrated navigation support.</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Personalized Trip Planning: Use the AI-powered trip planner to create fully customized travel itineraries based on your preferences, budget, and schedule—complete with suggested hotels, rental options, and instant contact details.</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Seamless Booking and Payments: Book hotels and car rentals directly through the app with a secure payment system, confirming your entire trip easily and safely within minutes.</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Web panel for the Hotels and Car rentals: The Software also has two website for hotels and car rentals to manage their inventory and update the reservations and update timely.</li>
-                        </ul>
                     </div>
                     <div className="image-section">
                         <img src={manzil} alt="Ride Booking Project Snapshot" className="project-image" />
@@ -277,14 +271,9 @@ const MainPage = () => {
                     <div className="text-section">
                         <h3>Ride Booking Web Application</h3>
                         <p>
-                        Created a web application featuring ride booking by allowing users to request and schedule rides seamlessly. Integrated Car rent companies to receive reservation requests. The Software had two panels, one for the users and one for the Car rentals, where the both end customers could interact. The software also had chat and real time ride tracking features to interact and track the rider in real time. Also Used firebase notifications to notify the users about their ride status and the car rent companies about the ride requests. The software was built using MERN stack, with a focus on user experience and real-time communication.
+                        Created a web application featuring ride booking by allowing users to request and schedule rides seamlessly. Integrated Car rent companies to receive reservation requests, with two panels built into the system—one for users and one for Car rental companies—allowing both ends to interact efficiently. The software included real-time chat and ride tracking features, enabling users to interact with riders and monitor ride progress live. Firebase notifications were used to keep users updated about their ride status and to notify Car rent companies about new ride requests. Socket.io was utilized for real-time communication, while companies nearest to the user's location were prioritized for receiving ride requests initially. Third-party APIs were also integrated to enable real-time location updates and tracking. The software was built using the MERN stack, with a strong focus on user experience and real-time functionality.
                         </p>
-                        <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
 
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Used Socket.io for real time communication and firebase notification system to notify the users.</li>
-                                                <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Companies near the User's location are prioritized to receive the request initially.</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Integrated third party APIs for real time location update and tracking.</li>
-                        </ul>
                     </div>
                     <div className="image-section">
                         <img src={Ride_Booking} alt="Ride Booking Project Snapshot" className="project-image" />
@@ -297,14 +286,10 @@ const MainPage = () => {
                     <div className="project-card" style={{ marginTop: '20px' }}>
                     <div className="text-section">
                         <h3>AI-Based Task Scheduling Mobile Application</h3>
-                        <p>
-                        We developed a task scheduling mobile application using React Native, designed to help users manage their workload more efficiently. Users input task details, and the app intelligently breaks down each task into subtasks and automatically schedules them in a calendar. Notifications for scheduled tasks are sent through Firebase, ensuring users stay updated. The app tracks the task status by moving tasks through "In Progress" and "Done" lists as users work through them. We also integrated the ChatGPT API to enhance the task breakdown and scheduling process with smart, AI-driven suggestions.
+                       <p>
+                        We developed a task scheduling mobile application using React Native, designed to help users manage their workload more efficiently. Users input task details, and the app intelligently breaks down each task into subtasks and automatically schedules them in a calendar. Smart task breakdown into subtasks and automated calendar scheduling were core features. Notifications for scheduled tasks were sent through Firebase, ensuring users stayed updated with push notifications reminding them about upcoming tasks. The app also tracked the task status in real-time by moving tasks through "In Progress" and "Done" lists as users worked through them. Additionally, we integrated the ChatGPT API to enhance the task breakdown and scheduling process with smart, AI-driven suggestions.
                         </p>
-                        <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Smart task breakdown into subtasks and automated calendar scheduling.</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Real-time task status tracking (In Progress and Done).</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Push notifications to remind users about upcoming tasks.</li>
-                        </ul>
+
                     </div>
                     <div className="image-section">
                         <img src={Task_Scheduler} alt="Task Scheduling Project Snapshot" className="project-image" />
@@ -317,14 +302,11 @@ const MainPage = () => {
                     <div className="project-card" style={{ marginTop: '20px' }}>
                     <div className="text-section">
                         <h3>LUMSync Mobile Application Interface</h3>
-                        <p>
-                        Designed the user interface for the LUMSync mobile application, a platform aimed at streamlining course management and extracurricular activity tracking for university students. Conducted thorough user research and problem identification sessions to deeply understand student pain points and organizational challenges. Mapped out optimized solutions to enhance the app’s task management capabilities, ensuring a smoother and more efficient user experience. Collaborated closely with potential users through interviews to validate design decisions and prioritize essential features. Developed detailed wireframes and fully interactive prototypes using Figma, focusing on creating a clean, intuitive, and user-centric interface that supports both academic and extracurricular engagement.
+                       <p>
+                        I led the user interface design for the LUMSync mobile application, a digital platform developed to streamline both course management and extracurricular activity tracking for university students. The project began with extensive user research and problem identification sessions, where I engaged directly with students through interviews, surveys, and observational studies to uncover key pain points in managing academic schedules and extracurricular commitments. This research phase revealed common challenges such as fragmented task tracking, difficulty in maintaining deadlines, and a lack of centralized activity management. Based on these findings, I proposed optimized solution approaches tailored to real user needs, which were then validated through iterative feedback sessions and design walkthroughs with the target audience. I collaborated closely with users to refine feature priorities, ensuring that core functionalities aligned with both academic and social use cases. Using Figma, I designed a comprehensive set of wireframes and developed fully interactive prototypes that reflected a clean, modern, and intuitive interface. These prototypes were tested with users to gather usability feedback and ensure smooth navigation and task flow. Throughout the design process, I focused on creating a user-centric experience that simplifies task organization, enhances productivity, and encourages consistent engagement with both academic and extracurricular modules.
                         </p>
-                        <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span>Conducted User Research and Problem Identification to understand real needs</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span>Proposed and validated Optimal Solution Approaches through user interviews</li>
-                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span>Designed detailed Figma Wireframes, Screens, and Interactive Prototypes</li>
-                        </ul>
+
+
                     </div>
                     </div>
                 </TabsContent>
@@ -419,12 +401,12 @@ const MainPage = () => {
                                 <div className="experience-details">
                                     <strong className="role"><span style={{color: "#d8d3d3"}}>Associate Software Engineer (Jan 2025 - Present)</span></strong>
                                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Lead frontend development of SnackOut’s Vendor and Admin web panels using React and TypeScript.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Developed and maintained modules for restaurant inventory management, rider assignment, order tracking, and wallet management.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Integrated push notifications via Firebase to enhance real-time communication with vendors and riders.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Worked closely with backend technologies including Node.js, Express.js, Prisma ORM, and PostgreSQL databases.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Collaborated with DevOps teams to manage AWS CI/CD pipelines and Kafka for event-driven communication.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Solely responsible for designing and implementing new features, ensuring performance and scalability.</li>
+                                        <li style={{ marginBottom: '5px' }}> Lead frontend development of SnackOut’s Vendor and Admin web panels using React and TypeScript.</li>
+                                        <li style={{ marginBottom: '5px' }}> Developed and maintained modules for restaurant inventory management, rider assignment, order tracking, and wallet management.</li>
+                                        <li style={{ marginBottom: '5px' }}> Integrated push notifications via Firebase to enhance real-time communication with vendors and riders.</li>
+                                        <li style={{ marginBottom: '5px' }}> Worked closely with backend technologies including Node.js, Express.js, Prisma ORM, and PostgreSQL databases.</li>
+                                        <li style={{ marginBottom: '5px' }}> Collaborated with DevOps teams to manage AWS CI/CD pipelines and Kafka for event-driven communication.</li>
+                                        <li style={{ marginBottom: '5px' }}> Solely responsible for designing and implementing new features, ensuring performance and scalability.</li>
                                     </ul>
                                     <div className="skills-icons">
                                         <i className="fab fa-js-square skill-logo" title="JavaScript" style={{ margin: '10px', color: '#00bccd', fontSize: '50px' }}></i>
@@ -453,10 +435,10 @@ const MainPage = () => {
                                 <div className="experience-details">
                                     <strong className="role"><span style={{color: "#d8d3d3"}}>Software Development Intern (June-August 2023)</span></strong>
                                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Developed a photography website using the MERN stack, enabling users to showcase their art skills and attract customers.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Gained practical experience in MERN stack development.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Collaborated with the design team to enhance the website’s user interface for better engagement.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Conducted user testing to gather feedback, leading to significant improvements in functionality.</li>
+                                        <li style={{ marginBottom: '5px' }}> Developed a photography website using the MERN stack, enabling users to showcase their art skills and attract customers.</li>
+                                        <li style={{ marginBottom: '5px' }}> Gained practical experience in MERN stack development.</li>
+                                        <li style={{ marginBottom: '5px' }}> Collaborated with the design team to enhance the website’s user interface for better engagement.</li>
+                                        <li style={{ marginBottom: '5px' }}> Conducted user testing to gather feedback, leading to significant improvements in functionality.</li>
                                     </ul>
                                     <div className="skills-icons">
                                         <i className="fab fa-js-square skill-logo" title="JavaScript" style={{ color: '#00bccd', margin: '10px', fontSize: '50px' }}></i>
@@ -474,10 +456,10 @@ const MainPage = () => {
                                 <div className="experience-details">
                                     <strong className="role"><span style={{color: "#d8d3d3"}}>General Secretary (Feb 2019 - Aug 2021)</span></strong>
                                     <ul style={{ paddingLeft: '20px', margin: '20px 0' }}>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Volunteered as a Teacher and Management Member for two years, providing free education to underprivileged students.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Gained experience in management, communication, and public dealing.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Organized workshops and events to raise awareness about education among the community.</li>
-                                        <li style={{ marginBottom: '5px' }}><span style={{color: "blue"}}>✔️</span> Collaborated with local organizations to secure resources and materials for students.</li>
+                                        <li style={{ marginBottom: '5px' }}> Volunteered as a Teacher and Management Member for two years, providing free education to underprivileged students.</li>
+                                        <li style={{ marginBottom: '5px' }}> Gained experience in management, communication, and public dealing.</li>
+                                        <li style={{ marginBottom: '5px' }}> Organized workshops and events to raise awareness about education among the community.</li>
+                                        <li style={{ marginBottom: '5px' }}> Collaborated with local organizations to secure resources and materials for students.</li>
                                     </ul>
                                     <div className="skills-icons">
                                         <i className="fas fa-user-graduate skill-logo" title="Management" style={{ color: '#00bccd', margin: '10px', fontSize: '50px' }}></i>
@@ -560,11 +542,11 @@ const MainPage = () => {
                             </div>
 
                             <div className="contact-icons" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                                <a href="mailto:Mehdichangazi135@gmail.com" style={{ display: 'flex', alignItems: 'center', marginTop: '10px', marginLeft:"20px" }}>
+                                <a href="mailto:Mehdichangazi135@gmail.com" style={{ display: 'flex', alignItems: 'center', marginTop: '10px', marginLeft:"0px" }}>
                                     <i className="fas fa-envelope" style={{ marginRight: '5px' }}></i>
                                     MehdiChangazi135@gmail.com
                                 </a>
-                                <a href="tel:+923418886424" style={{ display: 'flex', alignItems: 'center', marginTop: '10px', marginLeft:"20px" }}>
+                                <a href="tel:+923418886424" style={{ display: 'flex', alignItems: 'center', marginTop: '10px', marginLeft:"0px" }}>
                                     <i className="fas fa-phone" style={{ marginRight: '5px' }}></i>
                                     +92 341 888 6424
                                 </a>
@@ -578,7 +560,7 @@ const MainPage = () => {
           
           
             <footer className="footer-section" style={{ backgroundColor: 'black', color: '#fff', padding: '0px 0' }}>
-                <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', padding: '0 20px' }}>
+                <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', padding: '0 30px' }}>
                 
                     <div className="footer-right" style={{ flex: '1', textAlign: 'right', margin: '10px 0' }}>
                         <h3 style={{ color: '#00bccde5' }}>© 2025 Muhammad Mehdi</h3>
