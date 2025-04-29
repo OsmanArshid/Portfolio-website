@@ -97,7 +97,7 @@ input:focus, textarea:focus {
 
 .contact-info {
     flex: 1;
-    min-width: 300px; /* Minimum width for the contact info */
+    min-width: 250px; /* Minimum width for the contact info */
     background-color: #000000;
     border-radius: 10px;
     padding: 20px;
