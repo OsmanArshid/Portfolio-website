@@ -1,0 +1,94 @@
+/* Skills Animation Styles */
+.skills-track-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+}
+
+.skills-track {
+    display: flex;
+    animation: scrollSkills 30s linear infinite;
+    width: max-content;
+    /* Ensures the track is as wide as needed */
+}
+
+/* Adding a subtle gradient overlay to create a fade effect on edges */
+.skills-track-container::before,
+.skills-track-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    z-index: 2;
+}
+
+.skills-track-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 18, 32, 1), rgba(0, 18, 32, 0));
+}
+
+.skills-track-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(0, 18, 32, 1), rgba(0, 18, 32, 0));
+}
+
+.animated-skill-item {
+    background-color: rgba(58, 141, 235, 0.15);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    transition: all var(--transition-speed) ease;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.animated-skill-item:hover {
+    background-color: rgba(58, 141, 235, 0.3);
+    transform: translateY(-2px);
+}
+
+.animated-skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+/* Animation for skills scrolling */
+@keyframes scrollSkills {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* Move by half to create seamless loop */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .skills-track {
+        animation-duration: 20s;
+        /* Faster on mobile */
+    }
+}
+
+/* Category header styling */
+.skills-category-header {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.5rem;
+}
+
+/* Pause animation on hover */
+.skills-track-container:hover .skills-track {
+    animation-play-state: paused; }

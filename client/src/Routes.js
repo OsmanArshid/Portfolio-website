@@ -1,17 +1,21 @@
-import { Route, Routes } from 'react-router-dom';
-import {BrowserRouter} from 'react-router-dom';
-import MainPage from './Client Side code for pages/MainPage';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import './App.css';
 
 function App() {
-
   return (
-    <BrowserRouter>
+    <Router>
+      <div className="App">
+        <Navbar />
         <Routes>
-            <Route path="/" element={<MainPage/>}/>       
+          <Route path="/" element={<Home />} />
+          {/* Add other routes as needed */}
         </Routes>
-      </BrowserRouter>
-    
-  )
+      </div>
+    </Router>
+  );
 }
 
 export default App;
